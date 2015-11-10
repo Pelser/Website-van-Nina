@@ -1,0 +1,82 @@
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-size: 70px;
+text-align: center;
+padding-top: 310px;
+color: white;
+font-weight: 900;
+margin-top: 0px;
+}
+
+body {
+  background-image: url("achtergrond.jpg");
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  height: 76px;
+  margin-left: 80px;
+}
+.navigatie {
+  width: 100%;
+  position: fixed;
+  background: white;
+  height: 76px;
+}
+.navknoppen {
+  float: right;
+  padding-top: 15px;
+  width: 925px;
+  height: 20px;
+  border:0px solid #8AC007;
+}
+.navknoppen li {
+  float: left;
+  list-style-type: none;
+  width: auto;
+  margin-left: 22px;
+  font-family:'Lato', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+.navknoppen li:hover {
+  color: red;
+  transition: 0.75s;
+
+}
+.button:hover{
+background-color:rgba(255, 0, 0,0.75);
+transition:0.75s;
+}
+
+
+
+.button {
+      float: left;
+      background: #8B0000;
+      color: #fff;
+      font-family:'Lato', sans-serif;
+      font-size: 14px;
+      height: 50px;
+      width: 160px;
+      line-height: 50px;
+      margin: 0px 20px;
+      text-align: center;
+      border: 0;
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+      font-weight: 700;
+    }
+
+.buttonR {
+      width: 130px;
+}
+
+.buttons {
+      border:0px solid #8AC007;
+      width: 380px;
+      margin: auto;
+      text-align: center;
+
+    }
